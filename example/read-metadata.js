@@ -6,10 +6,10 @@ Spreadsheet.load({
   debug: true,
   username: creds.username,
   password: creds.password,
-  spreadsheetName: 'node-edit-spreadsheet',
-  worksheetName: 'Sheet1',
-  // spreadsheetId: 'tI1mkRABSRt3tQX3b-CRPbw',
-  // worksheetId: 'od6'
+  //spreadsheetName: 'node-edit-spreadsheet',
+  //worksheetName: 'Sheet1',
+  spreadsheetId: '1hJdIOmC4yYJ1tmZ-FkCh-43bzGKG_-LRZTX0e-KXBc0',
+  worksheetId: 'od6'
 }, function run(err, spreadsheet) {
   if(err) throw err;
   
